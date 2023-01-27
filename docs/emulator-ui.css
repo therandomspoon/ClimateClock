@@ -1,3 +1,23 @@
-body {
-  background-color: black;
+/* CSS for Climate Clock Widget */
+
+climate-clock {
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 3em;
+font-weight: bold;
+color: #FF0000; /* Red color to indicate urgency */
+}
+
+/* Add styles for responsive design */
+@media only screen and (max-width: 600px) {
+climate-clock {
+font-size: 2em;
+}
+}
+
+/* Add hover effect to highlight the clock */
+climate-clock:hover {
+cursor: pointer;
+background-color: #F5F5F5;
 }
